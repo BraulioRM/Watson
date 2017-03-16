@@ -23,8 +23,8 @@ public class WatsonTelmex extends AppCompatActivity {
 
     private TextToSpeech initTextToSpeechService(){
         TextToSpeech service = new TextToSpeech();
-        String username = "<here comes the API user>";
-        String password = "<here comes the API password>";
+        String username = "83840b60-70aa-4892-abb9-f56a700ff2f4";
+        String password = "zTU0Eem0m6MB";
         service.setUsernameAndPassword(username, password);
         return service;
     }
